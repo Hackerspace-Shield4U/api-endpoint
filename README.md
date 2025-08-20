@@ -161,5 +161,7 @@ curl -X POST \
 ```
 You can use a service like webhook.site to easily inspect the callback results.
 
+<br>
+
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
