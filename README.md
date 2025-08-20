@@ -91,6 +91,23 @@ Description: Checks the health of the service.
 ### Callback Payload
 When a scan is complete or fails, the service will send a POST request to the callback_url you provided. 
 
+### Example
+* Successful Scan:
+```
+  
+  {
+  "jobId": "scan-001",
+  "targetUrl": "https://example.com",
+  "status": "completed",
+  "endpoints": [
+    "/api/v1/users",
+    "/api/v1/products",
+    "/api/v1/orders"
+  ]
+}
+
+```
+
 <br>
 
 ## Setup and Installation
